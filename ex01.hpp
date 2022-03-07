@@ -3,8 +3,8 @@
 // also fill out the body
 template <class T>
 void multiples (T& sum, T x, int n) {
-    sum += 1;
-    for (int i = 0; i < n; i++){
-        sum += x*n;
+    sum = 1;
+    for (int i = 1; i < n; i++){
+        sum += x*i;
     }
 }
