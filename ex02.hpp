@@ -14,9 +14,9 @@ public:
     }
 
     T add() { return num1 + num2; /*your code here*/ }
-    T subtract() { num1 - num2 /*your code here*/ }
-    T multiply() { num1*num2 /*your code here*/ }
-    int divide() { num1/num2 /*your code here*/ }
+    T subtract() { return num1 - num2 /*your code here*/ }
+    T multiply() { return num1*num2 /*your code here*/ }
+    T divide() { return num1/num2 /*your code here*/ }
 };
 
 
